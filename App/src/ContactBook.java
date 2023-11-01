@@ -7,6 +7,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
+
 class Contato {
     private String nome;
     private String telefone;
@@ -51,6 +52,7 @@ public class ContactBook {
         // Painel para entrada de dados
         JPanel panel = new JPanel();
         panel.setLayout(new GridLayout(4, 2));
+        panel.setBackground(Color.BLUE);
 
         JLabel labelNome = new JLabel("Nome:");
         JTextField textFieldNome = new JTextField(20);
@@ -60,6 +62,7 @@ public class ContactBook {
         JButton buttonEditar = new JButton("Editar Contato");
         JButton buttonExcluir = new JButton("Excluir Contato");
         JButton buttonSalvar = new JButton("Salvar Contatos");
+        buttonSalvar.setBackground(Color.BLACK);
 
         panel.add(labelNome);
         panel.add(textFieldNome);
