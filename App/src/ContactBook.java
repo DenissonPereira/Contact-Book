@@ -62,7 +62,6 @@ public class ContactBook {
         JButton buttonEditar = new JButton("Editar Contato");
         JButton buttonExcluir = new JButton("Excluir Contato");
         JButton buttonSalvar = new JButton("Salvar Contatos");
-        buttonSalvar.setBackground(Color.BLACK);
 
         panel.add(labelNome);
         panel.add(textFieldNome);
